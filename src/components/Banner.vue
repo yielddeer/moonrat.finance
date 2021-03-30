@@ -20,7 +20,7 @@
                     </p>
                     <br>
                     <br>
-                    <a href="#">Trade Now!</a>
+                    <a @click="commingSoon()">Trade Now!</a>
                 </div>
                 <div class="col-lg-5">
                     <div class="banner-img">
@@ -41,6 +41,20 @@
             }
         },
         methods: {
+            commingSoon() {
+                this.$swal({
+                    title: 'Coming Soon ...',
+                    width: 400,
+                    padding: '2em',
+                    background: '#fff url(https://i.ibb.co/gwh2dbd/moon.png)',
+                    backdrop: `
+                                rgba(0, 0, 0, 0.5)
+                                url("https://i.ibb.co/qFgF3yZ/moonrat-02.gif")
+                                left top
+                                no-repeat
+                              `
+                });
+            },
             onScroll() {
                 if (!this.always_fixed_navbar) {
                     // Get the current scroll position

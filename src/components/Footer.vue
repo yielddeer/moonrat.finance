@@ -37,8 +37,7 @@
                             <h3>Important Links</h3>
                             <ul>
                                 <li>
-                                    <a href="https://bscscan.com/address/0x0cF011A946f23a03CeFF92A4632d5f9288c6C70D#code"
-                                       target="_blank">Contract</a></li>
+                                    <a @click="commingSoon()">Contract</a></li>
                                 <li><a href="https://docs.moonrat.finance" target="_blank">WhitePaper </a>
                                 </li>
                                 <li><a href="#"
@@ -90,6 +89,22 @@
 <script>
     export default {
         name: 'Footer',
+        methods: {
+            commingSoon() {
+                this.$swal({
+                    title: 'Coming Soon ...',
+                    width: 400,
+                    padding: '2em',
+                    background: '#fff url(https://i.ibb.co/gwh2dbd/moon.png)',
+                    backdrop: `
+                                rgba(0, 0, 0, 0.5)
+                                url("https://i.ibb.co/qFgF3yZ/moonrat-02.gif")
+                                left top
+                                no-repeat
+                              `
+                });
+            }
+        }
     }
 </script>
 

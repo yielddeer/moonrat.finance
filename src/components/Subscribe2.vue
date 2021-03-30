@@ -9,8 +9,7 @@
                                 <h3>Burn Address Transactions</h3>
                             </div>
                             <div class="col-lg-3 col-md-5 subscripe-btn">
-                                <a href="#"
-                                   target="_blank">Here!</a>
+                                <a @click="commingSoon()">Here!</a>
                             </div>
                         </div>
                     </div>
@@ -24,7 +23,23 @@
     export default {
         name: 'Subscribe2',
         components: {},
-        props: {}
+        props: {},
+        methods: {
+            commingSoon() {
+                this.$swal({
+                    title: 'Coming Soon ...',
+                    width: 400,
+                    padding: '2em',
+                    background: '#fff url(https://i.ibb.co/gwh2dbd/moon.png)',
+                    backdrop: `
+                                rgba(0, 0, 0, 0.5)
+                                url("https://i.ibb.co/qFgF3yZ/moonrat-02.gif")
+                                left top
+                                no-repeat
+                              `
+                });
+            }
+        }
     }
 </script>
 

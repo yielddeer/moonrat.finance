@@ -7,6 +7,7 @@ import './assets/css/font-awesome.min.css';
 import './assets/css/responsive.css';
 import './assets/css/slick.css';
 import './assets/css/style.css';
+import './assets/css/sweet-alert.css';
 
 Vue.config.productionTip = false
 
@@ -17,6 +18,7 @@ var VueScrollTo = require('vue-scrollto');
 
 import VueTimeline from "@growthbunker/vuetimeline";
 import Sticky from 'vue-sticky-directive'
+import VueSweetalert2 from 'vue-sweetalert2';
 
 Vue.use(Sticky)
 Vue.use(VueTimeline);
@@ -35,6 +37,8 @@ Vue.use(VueScrollTo, {
 })
 Vue.use(VueSplash);
 Vue.use(Particles);
+Vue.use(VueSweetalert2);
+
 new Vue({
     router,
     render: h => h(App),

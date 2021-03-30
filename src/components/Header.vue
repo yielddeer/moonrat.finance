@@ -39,8 +39,12 @@
                     </li>
 
                     <li class="nav-item">
+                        <!--                        <a class="nav-link"-->
+                        <!--                           href="https://bscscan.com/address/0x0cF011A946f23a03CeFF92A4632d5f9288c6C70D#code"-->
+                        <!--                           target="_blank">Contract </a>-->
+
                         <a class="nav-link"
-                           href="https://bscscan.com/address/0x0cF011A946f23a03CeFF92A4632d5f9288c6C70D#code"
+                           @click="commingSoon()"
                            target="_blank">Contract </a>
                     </li>
                     <li class="nav-item">
@@ -53,7 +57,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link bor super" href="#">Connect</a>
+                        <a class="nav-link bor super" @click="commingSoon">Connect</a>
                     </li>
                 </ul>
             </div>
@@ -73,6 +77,20 @@
             }
         },
         methods: {
+            commingSoon() {
+                this.$swal({
+                    title: 'Coming Soon ...',
+                    width: 400,
+                    padding: '2em',
+                    background: '#fff url(https://i.ibb.co/gwh2dbd/moon.png)',
+                    backdrop: `
+                                rgba(0, 0, 0, 0.5)
+                                url("https://i.ibb.co/qFgF3yZ/moonrat-02.gif")
+                                left top
+                                no-repeat
+                              `
+                });
+            },
             onScroll() {
                 if (!this.always_fixed_navbar) {
                     // Get the current scroll position
