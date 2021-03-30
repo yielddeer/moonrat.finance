@@ -37,7 +37,7 @@
 
             <div class="part-2 mt-5">
                 <h3>
-                    Mascot
+                    MoonRat & BNB 
                 </h3>
                 <div class="mt-2" style="display: flex; flex-wrap: wrap; justify-content: space-between">
                     <div class="img-wrapper mb-2">
