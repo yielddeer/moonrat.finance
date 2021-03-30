@@ -30,6 +30,13 @@
                             Tokenomics
                         </a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#roadmap"
+                           @click="show_nav_mobile=false"
+                           v-scroll-to="'#timeline'">
+                            Roadmap
+                        </a>
+                    </li>
 
                     <li class="nav-item">
                         <a class="nav-link"
