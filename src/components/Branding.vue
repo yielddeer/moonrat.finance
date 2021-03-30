@@ -15,7 +15,7 @@
 
             <div class="part-2 mt-5">
                 <h3>
-                    Rat logo
+                    MoonRat logo
                 </h3>
                 <div class="mt-2">
                     <div class="img-wrapper">
@@ -37,7 +37,7 @@
 
             <div class="part-2 mt-5">
                 <h3>
-                    mascot
+                    Mascot
                 </h3>
                 <div class="mt-2" style="display: flex; flex-wrap: wrap; justify-content: space-between">
                     <div class="img-wrapper mb-2">
