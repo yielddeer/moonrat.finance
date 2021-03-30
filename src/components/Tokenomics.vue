@@ -20,11 +20,18 @@
                             <div class="about-txt">
                                 <h3 style="color:#04cd33;">Token Stuff</h3>
                                 <p>Total Supply: 1 Quadrillion MOON RAT<br>
+                                <ul>
+                                    <li>80% for the fair launch. We add 80% of token to LP on Pancakeswap</li>
+                                    <li>5% for airdrop </li>
+                                    <li>15% for the foundation: Team only gets 4%, and 1% for marketing. We have a plan to burn the rest 10% of the foundation.</li>
+                                    <li><a href="https://docs.moonrat.finance/tokenomics/introduction" target="_blank">View more </a></li>
+                                </ul>
+                                
                                     <!-- Circulating Supply: 973,840,412,032,907 $MRAT<br>
                                     Holders:  $MRAT<br> -->
                                 </p>
-                                <h3 style="color:#04cd33;" class="mt-5">Burn Schedule</h3>
-                                <p>Total MOON RAT Burned:  $MRAT</p>
+                                <!-- <h3 style="color:#04cd33;" class="mt-5">Burn Schedule</h3>
+                                <p>Total MOON RAT Burned:  $MRAT</p> -->
                             </div>
                         </div>
                     </div>
