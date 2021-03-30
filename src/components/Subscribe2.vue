@@ -1,6 +1,6 @@
 <template>
     <section id="subscribe1">
-        <div class="container">
+        <div class="container" style="padding-top: 100px">
             <div class="row">
                 <div class="col-lg-8 m-auto">
                     <div class="sub-main">

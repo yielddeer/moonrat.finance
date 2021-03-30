@@ -16,7 +16,7 @@
                             </div>
                         </div>
                         <div class="col-lg-1 col-md-1"></div>
-                        <div class="col-lg-7 col-md-6">
+                        <div class="col-lg-7 col-md-6 tokenomic-content">
                             <div class="about-txt">
                                 <h3 style="color:#04cd33;">Token Stuff</h3>
                                 <p>Total Supply: 1 Quadrillion MOON RAT<br>

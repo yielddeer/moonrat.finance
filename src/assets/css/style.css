@@ -1269,6 +1269,13 @@ over-btn a i {
     position: relative;
 }
 
+#tokenomics .tokenomic-content {
+    background: #fff;
+    box-shadow: 0 31px 35px rgb(0 0 0 / 10%);
+    padding: 35px 31px;
+    border-radius: 10px;
+}
+
 .team-header h3:after {
     width: 164px;
 }
