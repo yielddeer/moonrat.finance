@@ -545,6 +545,32 @@ body {
     overflow: hidden;
 }
 
+#timeline {
+    padding: 100px 0px;
+    font-family: 'Baloo Da 2', cursive;
+}
+
+#timeline .gb-vue-timeline-update .gb-vue-timeline-update__right .gb-vue-timeline-update__information .gb-vue-timeline-update__title {
+    font-family: 'Baloo Da 2', cursive;
+}
+
+#timeline .gb-vue-timeline-update--light .gb-vue-timeline-update__right .gb-vue-timeline-update__description {
+    font-family: 'Baloo Da 2', cursive;
+}
+
+#timeline .roadmap-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 31px 35px rgb(0 0 0 / 10%);
+    /*margin-left: 3vw;*/
+    /*margin-right: 3vw;*/
+}
+
+#timeline .gb-vue-timeline-update {
+    padding-top: 5px;
+}
+
 
 #banner .banner-img img {
     width: 250px;

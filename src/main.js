@@ -15,6 +15,11 @@ import VueSplash from 'vue-splash';
 
 var VueScrollTo = require('vue-scrollto');
 
+import VueTimeline from "@growthbunker/vuetimeline";
+import Sticky from 'vue-sticky-directive'
+
+Vue.use(Sticky)
+Vue.use(VueTimeline);
 Vue.use(VueScrollTo, {
     container: "body",
     duration: 500,
@@ -28,7 +33,6 @@ Vue.use(VueScrollTo, {
     x: false,
     y: true
 })
-
 Vue.use(VueSplash);
 Vue.use(Particles);
 new Vue({

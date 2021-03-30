@@ -7,6 +7,7 @@
         <over-view/>
         <tokenomics/>
         <subscribe2/>
+        <time-line/>
         <team/>
     </div>
 </template>
@@ -19,10 +20,12 @@
     import Subscribe2 from "./Subscribe2";
     import Team from "./Team";
     import TestPaticles from "./TestPaticles";
+    import TimeLine from "./TimeLine";
 
     export default {
         name: 'Main',
         components: {
+            TimeLine,
             TestPaticles,
             Team,
             Subscribe2,
