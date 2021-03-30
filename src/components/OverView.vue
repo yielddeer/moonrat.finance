@@ -14,8 +14,7 @@
                                 <img :src="require('@/assets/images/icon-01.png')" alt="banner-img" class="img-fluid image-icon">
                                 <div class="break"></div>
                                 <h3>Fair Launch & Community Built</h3>
-                                <p>There is no pre-sale. <a href="https://docs.moonrat.finance/tokenomics/introduction" target="_blank">96% of supply will be given to community </a>. Dev plans to introduce
-                                    a DAO to propose/vote on direction of project! </p>
+                                <p>Community driven & fair launch. There is no pre-sale. Dev will add 80% of the token supply to LP on PancakeSwap and participate in the fair launch with everyone else.</p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-sm-6">
