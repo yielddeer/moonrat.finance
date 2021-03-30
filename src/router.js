@@ -1,14 +1,7 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Main from './components/Main';
-// import AboutSite from "./components/AboutSite";
-// import GallerySite from "./components/GallerySite";
-// import WalletSite from "./components/WalletSite";
-// import TermSite from "./components/TermSite";
-// import FAQSite from "./components/FAQSite";
-// import ProvenanceSite from "./components/ProvenanceSite";
-// import DisclaimerSite from "./components/DisclaimerSite";
-// import TenensfortisSite from "./components/TenensfortisSite";
+import Branding from "./components/Branding";
 
 Vue.use(Router);
 
@@ -19,47 +12,11 @@ export default new Router({
             path: '/',
             name: 'home',
             component: Main,
+        }, {
+            path: '/branding',
+            name: 'branding',
+            component: Branding,
         },
-        // {
-        //     path: '/about',
-        //     name: 'about',
-        //     component: AboutSite,
-        // },
-        // {
-        //     path: '/gallery',
-        //     name: 'gallery',
-        //     component: GallerySite,
-        // },
-        // {
-        //     path: '/wallet',
-        //     name: 'wallet',
-        //     component: WalletSite,
-        // },
-        // {
-        //     path: '/terms',
-        //     name: 'terms',
-        //     component: TermSite,
-        // },
-        // {
-        //     path: '/faqs',
-        //     name: 'faqs',
-        //     component: FAQSite,
-        // },
-        // {
-        //     path: '/provenance',
-        //     name: 'provenance',
-        //     component: ProvenanceSite,
-        // },
-        // {
-        //     path: '/disclaimer',
-        //     name: 'disclaimer',
-        //     component: DisclaimerSite,
-        // },
-        // {
-        //     path: '/tenensfortis',
-        //     name: 'tenensfortis',
-        //     component: TenensfortisSite,
-        // },
     ],
     mode: 'history',
     // eslint-disable-next-line no-unused-vars

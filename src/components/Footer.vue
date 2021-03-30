@@ -56,6 +56,11 @@
                             <h3>Informations</h3>
                             <ul>
                                 <li><a href="#about" v-scroll-to="'#about'">About Us</a></li>
+                                <li>
+                                    <router-link to="/branding">
+                                        Branding
+                                    </router-link>
+                                </li>
                                 <li><a href="https://medium.com/moonrat-finance" target="_blank">Recent Mediums</a></li>
                                 <li><a href="https://t.me/MoonRatFinance" target="_blank">Join Telegram</a></li>
                                 <li><a href="mailto:hello@moonrat.finance">Contact Us</a></li>
