@@ -7,8 +7,8 @@
                     Branding
                 </h3>
                 <p class="mt-2">
-                    Please do not edit, change, distort, recolor, or reconfigure the SafeMoon logo. Adjusting the size
-                    is fine as long as the original aspect ratio is maintained. These may be used to promote SafeMoon on
+                    Please do not edit, change, distort, recolor, or reconfigure the MoonRat logo. Adjusting the size
+                    is fine as long as the original aspect ratio is maintained. These may be used to promote MoonRat on
                     your website, social media, and other platforms.
                 </p>
             </div>
