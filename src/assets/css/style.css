@@ -674,6 +674,16 @@ body {
     padding-bottom: 40px;
 }
 
+#tokenomics .ul-token-stuff {
+    list-style-type: circle;
+    padding-left: 30px;
+}
+
+#tokenomics .ul-token-stuff li {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 .banner-txt a {
     padding: 14px 20px;
     border-radius: 50px;
@@ -1054,12 +1064,17 @@ over-btn a i {
 }
 
 .about-txt a {
-    padding: 14px 20px;
-    background: #04cd33;
-    color: #fff;
-    font-size: 18px;
+    padding: 5px 20px;
+    border-radius: 50px;
+    color: white !important;
+    background-size: 200% auto;
+    background-image: linear-gradient(90deg, #04cd33, #46ABf8 51%, #04cd33);
     font-family: 'Baloo Da 2', cursive;
+    font-size: 18px;
     position: relative;
+    -webkit-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
 }
 
 .about-txt a i {
