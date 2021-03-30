@@ -13,7 +13,7 @@
                  id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto menu-item" style="align-items: center">
                     <li class="nav-item">
-                        <a class="nav-link active" href="https://moonrat.finance/#banner" @click="show_nav_mobile=false"
+                        <a class="nav-link active" href="#banner" @click="show_nav_mobile=false"
                            v-scroll-to="'#banner'">Home</a>
                     </li>
                     <li class="nav-item">
