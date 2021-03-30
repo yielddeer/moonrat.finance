@@ -8,7 +8,7 @@
             </div>
 
             <div class="row roadmap-content">
-                <div class="col-4">
+                <div class="col-4 roadmap-image">
                     <div sticky-container style="width: 100%; height: 100%">
                         <div class="sticky" v-sticky="stickyEnabled" sticky-offset="{top: 0, bottom: 0}"
                              sticky-side="both" on-stick="onStick" sticky-z-index="20">
@@ -17,7 +17,7 @@
                     </div>
                 </div>
 
-                <div class="col-8">
+                <div class="col-8 roadmap-text">
                     <vue-timeline-update
                             :date="new Date('2021-03-30')"
                             title="Protocol Initialized"

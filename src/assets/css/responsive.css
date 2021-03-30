@@ -100,6 +100,24 @@
 
 @media (max-width: 575px) {
 
+    .roadmap-content .roadmap-image {
+        display: none;
+    }
+
+    #tokenomics {
+        margin: 0px 20px;
+    }
+
+    .roadmap-content .roadmap-text {
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: 100% !important;
+    }
+
+    #timeline {
+        margin: 0px 20px;
+    }
+
     .banner-img {
         text-align: center;
     }
