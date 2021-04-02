@@ -39,7 +39,7 @@
                                 <img :src="require('@/assets/images/icon-04.png')" alt="banner-img" class="img-fluid image-icon">
                                 <div class="break"></div>
                                 <h3>Anti Pump-Dump-Exist Whales</h3>
-                                <p>Whales make transaction that is larger than 0,05% of the total supply will be charged for 2 BNB </p>
+                                <p> Transactions (sell/buy) that trade more than 0.05% of the  total supply will be rejected. Whales who make a transfer (between 2 wallets) that is larger than 0,05% of the total supply will be charged for 2 BNB.</p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-sm-6">
