@@ -1978,6 +1978,31 @@ textarea::placeholder {
     margin-bottom: 0;
 }
 
+.clock {
+    background-color: white;
+    width: 50%;
+    margin: 50px auto;
+    padding: 50px 20px;
+    border-radius: 10px;
+    box-shadow: 0 31px 35px rgb(0 0 0 / 10%);
+}
+
+.clock .title-clock {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Baloo Da 2', cursive;
+    text-align: center;
+    color: white;
+    width: 80%;
+    padding: 10px 0px;
+    margin: 0px auto 50px auto;
+    border-radius: 50px;
+    background-image: linear-gradient(
+            90deg, #04cd33, #46ABf8);
+
+}
+
+
 .fop-btm a {
     color: #04cd33;
     font-family: 'Baloo Da 2', cursive;

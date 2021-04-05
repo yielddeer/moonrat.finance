@@ -3,6 +3,14 @@
         <test-paticles/>
         <banner/>
         <br>
+        <div class="clock">
+
+            <div class="title-clock">
+                The Testnet Event Countdown
+            </div>
+
+            <flip-clock :options="option_clock"/>
+        </div>
         <subscribe/>
         <over-view/>
         <tokenomics/>
@@ -22,6 +30,8 @@
     import TestPaticles from "./TestPaticles";
     import TimeLine from "./TimeLine";
 
+    import {FlipClock} from '@mvpleung/flipclock';
+
     export default {
         name: 'Main',
         components: {
@@ -32,13 +42,21 @@
             Tokenomics,
             OverView,
             Subscribe,
-            Banner
+            Banner,
+            FlipClock
         },
-        props: {}
+        props: {},
+        data() {
+            return {
+                option_clock: {
+                    time: new Date(2021, 3, 6, 14, 0, 0),
+                    clockFace: 'DailyCounter',
+                    countdown: true,
+                }
+            }
+        }
     }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
 
-</style>

@@ -16,6 +16,8 @@ import VueSplash from 'vue-splash';
 
 var VueScrollTo = require('vue-scrollto');
 
+import '@/assets/css/flipclock.css';
+
 import VueTimeline from "@growthbunker/vuetimeline";
 import Sticky from 'vue-sticky-directive'
 import VueSweetalert2 from 'vue-sweetalert2';

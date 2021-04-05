@@ -9,8 +9,11 @@
   },
   "dependencies": {
     "@growthbunker/vuetimeline": "^0.1.17",
+    "@mvpleung/flipclock": "0.0.6",
     "core-js": "^3.9.1",
     "particles.vue": "^2.7.2",
+    "sass": "^1.32.8",
+    "sass-loader": "^10.1.1",
     "vue": "^2.6.12",
     "vue-router": "^3.5.1",
     "vue-scrollto": "^2.20.0",
