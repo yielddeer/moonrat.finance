@@ -22,7 +22,7 @@
                                 <img :src="require('@/assets/images/icon-02.png')" alt="banner-img" class="img-fluid image-icon">
                                 <div class="break"></div>
                                 <h3>Automatic Liquidity Pool</h3>
-                                <p>4,5% of every transaction contributes toward automatically generating further liquidity
+                                <p>4% of every transaction contributes toward automatically generating further liquidity
                                     on Pancake Swap. Benefiting long term for $MRAT holders the most!</p>
                             </div>
                         </div>
@@ -31,7 +31,7 @@
                                 <img :src="require('@/assets/images/icon-03.png')" alt="banner-img" class="img-fluid image-icon">
                                 <div class="break"></div>
                                 <h3>Earn $BNB by hodling $MRAT</h3>
-                                <p>1,5% of every transaction is taken and re-distributed to all MOON RAT holders in $BNB.</p>
+                                <p>4% of every transaction is taken and re-distributed to all MOON RAT holders in $BNB.</p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-sm-6">
@@ -39,7 +39,7 @@
                                 <img :src="require('@/assets/images/icon-04.png')" alt="banner-img" class="img-fluid image-icon">
                                 <div class="break"></div>
                                 <h3>Anti Pump-Dump-Exist Whales</h3>
-                                <p>Whales make transaction that is larger than 0,05% of the total supply will be charged for 0,1 BNB </p>
+                                <p> Transactions (sell/buy) that trade more than 0.05% of the  total supply will be rejected. Whales who make a transfer (between 2 wallets) that is larger than 0,05% of the total supply will be charged for 2 BNB.</p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-sm-6">
@@ -47,7 +47,7 @@
                                 <img :src="require('@/assets/images/icon-05.png')" alt="banner-img" class="img-fluid image-icon">
                                 <div class="break"></div>
                                 <h3>RFI Static Rewards</h3>
-                                <p>4% of every transaction is taken and re distributed to all $MRAT holders. The burn address is also a holder thus each transaction helps deflate the supply.</p>
+                                <p>2% of every transaction is taken and re distributed to all $MRAT holders. The burn address is also a holder thus each transaction helps deflate the supply.</p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-sm-6">
