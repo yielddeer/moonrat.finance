@@ -29,7 +29,7 @@
                     />
                     <!-- Another update -->
                     <vue-timeline-update
-                            :date="new Date('2021-04-06')"
+                            :date="new Date('2021-04-09')"
                             title="Launch on Pancakeswap"
                             description="Fair launch, 80% of token supply will be added to PancakeSwap. Liquidity will be locked for 6 months."
                             category="Q2 2021"
