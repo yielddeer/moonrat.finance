@@ -9,7 +9,7 @@
                 The Testnet Event Countdown
             </div>
 
-            <flip-clock :options="option_clock"/>
+            <flip-clock ref="flipclock" :options="option_clock"/>
         </div>
         <subscribe/>
         <over-view/>
@@ -49,11 +49,25 @@
         data() {
             return {
                 option_clock: {
-                    time: new Date(2021, 3, 6, 14, 0, 0),
+                    time: 0,
                     clockFace: 'DailyCounter',
                     countdown: true,
                 }
             }
+        },
+        mounted() {
+
+            let current_date = new Date()
+            let target_date = new Date(2021, 3, 6, 14, 0, 0)
+
+            let diff = target_date.getTime() - current_date.getTime()
+
+            if (diff > 0) {
+                this.option_clock.time = diff/1000
+                this.$forceUpdate()
+            }
+
+
         }
     }
 </script>
