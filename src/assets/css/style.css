@@ -1994,7 +1994,7 @@ textarea::placeholder {
     text-align: center;
     color: white;
     width: 80%;
-    padding: 10px 0px;
+    padding: 10px 20px;
     margin: 0px auto 50px auto;
     border-radius: 50px;
     background-image: linear-gradient(

@@ -100,6 +100,71 @@
 
 @media (max-width: 575px) {
 
+    .clock {
+        width: 100% !important;
+    }
+
+    .clock .title-clock {
+        font-size: 20px !important;
+        width: 100% !important;
+    }
+
+    .flip-clock-wrapper {
+        margin: 0em !important;
+    }
+
+    .flip-clock-wrapper ul li a div div.inn {
+        font-size: 25px !important;
+    }
+
+    .flip-clock-wrapper .flip {
+        width: 28px !important;
+        margin: 2px !important;
+        height: 24px !important;
+        padding: 23px 1px !important;
+    }
+
+
+    .flip-clock-divider {
+        height: 1px !important;
+        width: 8px !important;
+    }
+
+    .flip-clock-divider.minutes .flip-clock-label {
+        left: -7px;
+    }
+
+    .flip-clock-divider.days .flip-clock-label {
+        left: -7px;
+    }
+
+    .flip-clock-divider.hours .flip-clock-label {
+        left: -7px;
+    }
+
+    .flip-clock-divider.seconds .flip-clock-label {
+        left: -7px;
+    }
+
+    .flip-clock-wrapper .flip-clock-dot.top {
+        top: 16px;
+    }
+
+    .flip-clock-wrapper .flip-clock-dot {
+        width: 4px;
+        height: 4px;
+        left: 2px;
+    }
+
+
+    .flip-clock-wrapper .flip-clock-dot.bottom {
+        bottom: -40px;
+    }
+
+    .flip-clock-wrapper ul li {
+        line-height: 53px !important;
+    }
+
     .roadmap-content .roadmap-image {
         display: none;
     }
@@ -362,6 +427,10 @@
 
 @media (min-width: 576px) and (max-width: 767px) {
 
+    .clock {
+        width: 100% !important;
+    }
+
     #banner {
         padding: 145px 0 100px;
     }
@@ -530,6 +599,10 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+
+    .clock {
+        width: 100% !important;
+    }
 
     #tsparticles, .paticales {
         height: 800px;
