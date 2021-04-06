@@ -466,6 +466,10 @@ p {
     margin-right: 25px;
 }
 
+.navbar-light .navbar-nav .nav-link.super:hover {
+    cursor: pointer;
+}
+
 .navbar-light .navbar-nav .nav-link:focus {
     color: #131313;
 }
