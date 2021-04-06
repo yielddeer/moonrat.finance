@@ -20,7 +20,7 @@
                     </p>
                     <br>
                     <br>
-                    <a @click="commingSoon()">Trade Now!</a>
+                    <a class="bor super" @click="launchApp()" style="cursor: pointer">Launch App</a>
                 </div>
                 <div class="col-lg-5">
                     <div class="banner-img">
@@ -41,19 +41,8 @@
             }
         },
         methods: {
-            commingSoon() {
-                this.$swal({
-                    title: 'Coming Soon ...',
-                    width: 400,
-                    padding: '2em',
-                    background: '#fff url(https://i.ibb.co/gwh2dbd/moon.png)',
-                    backdrop: `
-                                rgba(0, 0, 0, 0.5)
-                                url("https://i.ibb.co/qFgF3yZ/moonrat-02.gif")
-                                left top
-                                no-repeat
-                              `
-                });
+            launchApp() {
+               window.open("https://app.moonrat.finance/", "_blank")
             },
             onScroll() {
                 if (!this.always_fixed_navbar) {
