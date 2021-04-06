@@ -3,14 +3,14 @@
         <test-paticles/>
         <banner/>
         <br>
-        <div class="clock">
+<!--        <div class="clock">-->
 
-            <div class="title-clock">
-                The Testnet Event Countdown
-            </div>
+<!--            <div class="title-clock">-->
+<!--                The Testnet Event Countdown-->
+<!--            </div>-->
 
-            <flip-clock ref="flipclock" :options="option_clock"/>
-        </div>
+<!--            <flip-clock ref="flipclock" :options="option_clock"/>-->
+<!--        </div>-->
         <subscribe/>
         <over-view/>
         <tokenomics/>
@@ -30,7 +30,7 @@
     import TestPaticles from "./TestPaticles";
     import TimeLine from "./TimeLine";
 
-    import {FlipClock} from '@mvpleung/flipclock';
+    // import {FlipClock} from '@mvpleung/flipclock';
 
     export default {
         name: 'Main',
@@ -42,8 +42,8 @@
             Tokenomics,
             OverView,
             Subscribe,
-            Banner,
-            FlipClock
+            Banner
+            // FlipClock
         },
         props: {},
         data() {
@@ -57,15 +57,16 @@
         },
         mounted() {
 
-            let current_date = new Date()
-            let target_date = new Date(2021, 3, 6, 14, 0, 0)
-
-            let diff = target_date.getTime() - current_date.getTime()
-
-            if (diff > 0) {
-                this.option_clock.time = diff/1000
-                this.$forceUpdate()
-            }
+            // let current_date = new Date(Date.UTC(2021, 3, 6, 0, 0, 0))
+            //
+            // let target_date = new Date(Date.UTC(2021, 3, 6, 16, 0, 0))
+            //
+            // let diff = target_date.getTime() - current_date.getTime()
+            //
+            // if (diff > 0) {
+            //     this.option_clock.time = diff/1000
+            //     this.$forceUpdate()
+            // }
 
 
         }
