@@ -22,6 +22,10 @@ import VueTimeline from "@growthbunker/vuetimeline";
 import Sticky from 'vue-sticky-directive'
 import VueSweetalert2 from 'vue-sweetalert2';
 
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+
+Vue.use(ElementUI);
 Vue.use(Sticky)
 Vue.use(VueTimeline);
 Vue.use(VueScrollTo, {

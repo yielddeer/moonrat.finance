@@ -16,6 +16,7 @@
         <tokenomics/>
         <subscribe2/>
         <time-line/>
+        <f-a-q/>
         <team/>
     </div>
 </template>
@@ -29,12 +30,14 @@
     import Team from "./Team";
     import TestPaticles from "./TestPaticles";
     import TimeLine from "./TimeLine";
+    import FAQ from "./FAQ";
 
     // import {FlipClock} from '@mvpleung/flipclock';
 
     export default {
         name: 'Main',
         components: {
+            FAQ,
             TimeLine,
             TestPaticles,
             Team,

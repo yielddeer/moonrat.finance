@@ -57,7 +57,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link bor super" @click="commingSoon">Launch App</a>
+                        <a class="nav-link bor super" @click="commingSoon1">Launch App</a>
                     </li>
                 </ul>
             </div>
@@ -78,21 +78,21 @@
         },
         methods: {
             commingSoon() {
-                // this.$swal({
-                //     title: 'Coming Soon ...',
-                //     width: 400,
-                //     padding: '2em',
-                //     background: '#fff url(https://i.ibb.co/gwh2dbd/moon.png)',
-                //     backdrop: `
-                //                 rgba(0, 0, 0, 0.5)
-                //                 url("https://i.ibb.co/qFgF3yZ/moonrat-02.gif")
-                //                 left top
-                //                 no-repeat
-                //               `
-                // });
-
-               window.open('https://app.moonrat.finance', '_blank');
-
+                window.open('https://app.moonrat.finance', '_blank');
+            },
+            commingSoon1() {
+                this.$swal({
+                    title: 'Coming Soon ...',
+                    width: 400,
+                    padding: '2em',
+                    background: '#fff url(https://i.ibb.co/gwh2dbd/moon.png)',
+                    backdrop: `
+                                rgba(0, 0, 0, 0.5)
+                                url("https://i.ibb.co/qFgF3yZ/moonrat-02.gif")
+                                left top
+                                no-repeat
+                              `
+                });
             },
             onScroll() {
                 if (!this.always_fixed_navbar) {

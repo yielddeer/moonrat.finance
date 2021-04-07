@@ -571,6 +571,27 @@ body {
     /*margin-right: 3vw;*/
 }
 
+#faq .el-collapse {
+
+}
+
+#faq .el-collapse-item__header {
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 20px;
+    height: 70px;
+    line-height: 1.2;
+}
+
+#faq .el-collapse-item__content {
+    padding-left: 20px !important;
+    font-size: 14px;
+}
+
+#faq .el-collapse-item__arrow {
+    color: #04cd33;
+    font-weight: bold;
+}
+
 #timeline .gb-vue-timeline-update {
     padding-top: 5px;
 }
