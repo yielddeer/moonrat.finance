@@ -78,9 +78,6 @@
         },
         methods: {
             commingSoon() {
-                window.open('https://app.moonrat.finance', '_blank');
-            },
-            commingSoon1() {
                 this.$swal({
                     title: 'Coming Soon ...',
                     width: 400,
@@ -93,6 +90,10 @@
                                 no-repeat
                               `
                 });
+            },
+            commingSoon1() {
+                window.open('https://app.moonrat.finance', '_blank');
+
             },
             onScroll() {
                 if (!this.always_fixed_navbar) {
