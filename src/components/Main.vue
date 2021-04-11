@@ -6,7 +6,7 @@
         <div class="clock">
 
             <div class="title-clock">
-                The Testnet Event Countdown
+                The Mainnet Event Countdown
             </div>
 
             <flip-clock ref="flipclock" :options="option_clock"/>
