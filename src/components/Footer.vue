@@ -5,7 +5,7 @@
                 <div class="row">
                     <div class="col-lg-4 col-sm-11">
                         <div class="footer-logo">
-                            <a class="f-logo" href="https://moonrat.fun/#banner"><b>moonrat</b></a>
+                            <a class="f-logo"><b>MoonRat</b></a>
 
                             <p>MoonRat is a community driven, fair launched DeFi project built on Binance Smart Chain
                                 #BSC.
@@ -17,6 +17,9 @@
                                     <i class="fa fa-twitter" aria-hidden="true"></i>
                                 </a>
                                 <a href="https://t.me/MoonRatFinance" target="_blank">
+                                    <i class="fa fa-telegram" aria-hidden="true"></i>
+                                </a>
+                                 <a href="https://t.me/moonrat_finance" target="_blank">
                                     <i class="fa fa-telegram" aria-hidden="true"></i>
                                 </a>
                                 <a href="https://medium.com/moonrat-finance" target="_blank">
