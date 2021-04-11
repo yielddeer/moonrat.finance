@@ -1,4 +1,4 @@
-# Moon Rat Finance
+# MoonRat Finance
 
 ## Project setup
 ```

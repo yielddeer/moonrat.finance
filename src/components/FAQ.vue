@@ -36,7 +36,7 @@
                     },
                     {
                         title: 'What is the BNB pool?',
-                        desc: '4% of every transaction is taken and re-distributed to all MOON RAT holders in $BNB. This amount of BNB called the BNB pool.'
+                        desc: '4% of every transaction is taken and re-distributed to all MoonRat holders in $BNB. This amount of BNB called the BNB pool.'
                     },
                     {
                         title: 'What if I don’t claim BNB reward in my cycle?',

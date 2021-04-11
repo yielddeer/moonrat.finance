@@ -31,7 +31,7 @@
                                 <img :src="require('@/assets/images/icon-03.png')" alt="banner-img" class="img-fluid image-icon">
                                 <div class="break"></div>
                                 <h3>Earn $BNB by hodling $MRAT</h3>
-                                <p>4% of every transaction is taken and re-distributed to all MOON RAT holders in $BNB.</p>
+                                <p>4% of every transaction is taken and re-distributed to all MoonRat holders in $BNB.</p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-sm-6">

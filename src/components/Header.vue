@@ -2,7 +2,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" :class="{'nav-bg':have_nav}">
         <div class="container">
-            <a class="navbar-brand" href="/"><b>MOON RAT</b></a>
+            <a class="navbar-brand" href="/"><b>MOONRAT</b></a>
             <img :src="require('@/assets/images/MoonRat_2x.png')" style="width: 50px">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     @click="show_nav_mobile = !show_nav_mobile"

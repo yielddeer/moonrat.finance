@@ -19,7 +19,7 @@
                         <div class="col-lg-7 col-md-6 tokenomic-content">
                             <div class="about-txt">
                                 <h3 style="color:#04cd33;">Token Stuff</h3>
-                                <p>Total Supply: 1 Quadrillion MOON RAT<br></p>
+                                <p>Total Supply: 1 Quadrillion MoonRat<br></p>
 
                                 <ul class="ul-token-stuff">
                                     <li>80% for the fair launch. We add 80% of token to LP on Pancakeswap</li>
@@ -40,7 +40,7 @@
                                 Holders:  $MRAT<br> -->
 
                                 <!-- <h3 style="color:#04cd33;" class="mt-5">Burn Schedule</h3>
-                                <p>Total MOON RAT Burned:  $MRAT</p> -->
+                                <p>Total MoonRat Burned:  $MRAT</p> -->
                             </div>
                         </div>
                     </div>
