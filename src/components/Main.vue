@@ -3,14 +3,14 @@
         <test-paticles/>
         <banner/>
         <br>
-<!--        <div class="clock">-->
+        <div class="clock">
 
-<!--            <div class="title-clock">-->
-<!--                The Testnet Event Countdown-->
-<!--            </div>-->
+            <div class="title-clock">
+                The Testnet Event Countdown
+            </div>
 
-<!--            <flip-clock ref="flipclock" :options="option_clock"/>-->
-<!--        </div>-->
+            <flip-clock ref="flipclock" :options="option_clock"/>
+        </div>
         <subscribe/>
         <over-view/>
         <tokenomics/>
@@ -32,7 +32,7 @@
     import TimeLine from "./TimeLine";
     import FAQ from "./FAQ";
 
-    // import {FlipClock} from '@mvpleung/flipclock';
+    import {FlipClock} from '@mvpleung/flipclock';
 
     export default {
         name: 'Main',
@@ -45,8 +45,8 @@
             Tokenomics,
             OverView,
             Subscribe,
-            Banner
-            // FlipClock
+            Banner,
+            FlipClock
         },
         props: {},
         data() {
@@ -59,19 +59,24 @@
             }
         },
         mounted() {
+            let now = new Date()
 
-            // let current_date = new Date(Date.UTC(2021, 3, 6, 0, 0, 0))
-            //
-            // let target_date = new Date(Date.UTC(2021, 3, 6, 16, 0, 0))
-            //
-            // let diff = target_date.getTime() - current_date.getTime()
-            //
-            // if (diff > 0) {
-            //     this.option_clock.time = diff/1000
-            //     this.$forceUpdate()
-            // }
+            let y = now.getUTCFullYear()
+            let m = now.getUTCMonth()
+            let d = now.getUTCDate()
+            let h = now.getUTCHours()
+            let mi = now.getUTCMinutes()
+            let s = now.getUTCSeconds()
 
+            var current_date = new Date(Date.UTC(y, m, d, h, mi, s))
+            let target_date = new Date(Date.UTC(2021, 3, 12, 7, 0, 0))
 
+            let diff = target_date.getTime() - current_date.getTime()
+
+            if (diff > 0) {
+                this.option_clock.time = diff / 1000
+                this.$forceUpdate()
+            }
         }
     }
 </script>
