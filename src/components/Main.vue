@@ -3,14 +3,14 @@
         <test-paticles/>
         <banner/>
         <br>
-        <div class="clock">
+<!--        <div class="clock">-->
 
-            <div class="title-clock">
-                The Mainnet Event Countdown
-            </div>
+<!--            <div class="title-clock">-->
+<!--                The Mainnet Event Countdown-->
+<!--            </div>-->
 
-            <flip-clock ref="flipclock" :options="option_clock"/>
-        </div>
+<!--&lt;!&ndash;            <flip-clock ref="flipclock" :options="option_clock"/>&ndash;&gt;-->
+<!--        </div>-->
         <subscribe/>
         <over-view/>
         <tokenomics/>
@@ -32,7 +32,7 @@
     import TimeLine from "./TimeLine";
     import FAQ from "./FAQ";
 
-    import {FlipClock} from '@mvpleung/flipclock';
+    // import {FlipClock} from '@mvpleung/flipclock';
 
     export default {
         name: 'Main',
@@ -45,8 +45,8 @@
             Tokenomics,
             OverView,
             Subscribe,
-            Banner,
-            FlipClock
+            Banner
+            // FlipClock
         },
         props: {},
         data() {
