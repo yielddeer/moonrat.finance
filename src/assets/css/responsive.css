@@ -100,12 +100,16 @@
 
 @media (max-width: 575px) {
 
+    .banner-txt .small {
+        font-size: 11px !important;
+    }
+
     #banner .banner-img {
-        display: none!important;
+        display: none !important;
     }
 
     .faq-content {
-        padding: 20px!important;
+        padding: 20px !important;
     }
 
     .clock {
