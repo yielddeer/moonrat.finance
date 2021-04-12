@@ -100,6 +100,10 @@
 
 @media (max-width: 575px) {
 
+    #banner .banner-img {
+        display: none!important;
+    }
+
     .faq-content {
         padding: 20px!important;
     }
