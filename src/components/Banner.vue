@@ -23,6 +23,10 @@
                         OFFICIAL TWITTER : <a href="https://twitter.com/MoonRatFinance">@MoonRatFinance</a>
                     </h3>
 
+                    <h3 class="small">
+                        OFFICIAL SMARTCONTRACT : <a href="#">Soon</a>
+                    </h3>
+
                     <h3 class="title-main">WELCOME TO THE NEW WORLD 🐭</h3>
                     <p>MoonRat is a community driven, fair launched DeFi project built on Binance Smart Chain #BSC.
                         Three functions occur during each trade: Reflection, LP Acquisition, & Burn.
