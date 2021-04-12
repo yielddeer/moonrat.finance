@@ -12,19 +12,21 @@
                 <div class="col-lg-7 banner-txt">
 
                     <h3 class="small">
-                        OFFICIAL TELEGRAM : <a href="https://t.me/MoonRatFinance">@MoonRatFinance</a>
+                        OFFICIAL TELEGRAM : <a target="_blank" href="https://t.me/MoonRatFinance">@MoonRatFinance</a>
                     </h3>
 
                     <h3 class="small">
-                        OFFICIAL TELEGRAM ANNOUNCEMENTS : <a href="https://t.me/moonrat_finance">@moonrat_finance</a>
+                        OFFICIAL TELEGRAM ANNOUNCEMENTS : <a target="_blank" href="https://t.me/moonrat_finance">@moonrat_finance</a>
                     </h3>
 
                     <h3 class="small">
-                        OFFICIAL TWITTER : <a href="https://twitter.com/MoonRatFinance">@MoonRatFinance</a>
+                        OFFICIAL TWITTER : <a target="_blank"
+                                              href="https://twitter.com/MoonRatFinance">@MoonRatFinance</a>
                     </h3>
 
                     <h3 class="small">
-                        OFFICIAL SMARTCONTRACT : <a href="#">Soon</a>
+                        OFFICIAL SMARTCONTRACT : <a target="_blank"
+                                                    href="https://bscscan.com/token/0x6D949f9297A522c0f97C232CC209a67Bd7CfA471">Here</a>
                     </h3>
 
                     <h3 class="title-main">WELCOME TO THE NEW WORLD 🐭</h3>
