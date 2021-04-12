@@ -10,6 +10,19 @@
         <div class="container zindex">
             <div class="row">
                 <div class="col-lg-7 banner-txt">
+
+                    <h3 class="small">
+                        OFFICIAL TELEGRAM : <a href="https://t.me/MoonRatFinance">@MoonRatFinance</a>
+                    </h3>
+
+                    <h3 class="small">
+                        OFFICIAL TELEGRAM ANNOUNCEMENTS : <a href="https://t.me/moonrat_finance">@moonrat_finance</a>
+                    </h3>
+
+                    <h3 class="small">
+                        OFFICIAL TWITTER : <a href="https://twitter.com/MoonRatFinance">@MoonRatFinance</a>
+                    </h3>
+
                     <h3 class="title-main">WELCOME TO THE NEW WORLD 🐭</h3>
                     <p>MoonRat is a community driven, fair launched DeFi project built on Binance Smart Chain #BSC.
                         Three functions occur during each trade: Reflection, LP Acquisition, & Burn.
@@ -42,7 +55,7 @@
         },
         methods: {
             launchApp() {
-               window.open("https://app.moonrat.finance/", "_blank")
+                window.open("https://app.moonrat.finance/", "_blank")
             },
             onScroll() {
                 if (!this.always_fixed_navbar) {
