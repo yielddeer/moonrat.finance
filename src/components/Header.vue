@@ -44,7 +44,7 @@
                         <!--                           target="_blank">Contract </a>-->
 
                         <a class="nav-link"
-                           @click="commingSoon()"
+                           href="https://bscscan.com/token/0x6D949f9297A522c0f97C232CC209a67Bd7CfA471"
                            target="_blank">Contract </a>
                     </li>
                     <li class="nav-item">

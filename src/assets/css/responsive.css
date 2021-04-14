@@ -36,6 +36,10 @@
 }
 
 @media (max-width: 991px) {
+    #banner .banner-img {
+        display: none;
+    }
+
     .navbar-light .navbar-nav .nav-link {
         margin: 18px;
         color: #131313;
@@ -100,13 +104,26 @@
 
 @media (max-width: 575px) {
 
+    .banner-txt .row .button-wrapper {
+        text-align: center;
+    }
 
-    .banner-txt .small a {
-        font-size: 8px !important;
+    .social-info .row {
+        margin-bottom: 18px;
+    }
+
+
+    .banner-txt .row .text-wrapper {
+        text-align: center !important;
+    }
+
+    .center-in-mobile {
+        text-align: center;
     }
 
     .banner-txt .small {
-        font-size: 11px !important;
+        font-size: 17px !important;
+        margin-bottom: 0px !important;
     }
 
     #banner .banner-img {
@@ -240,8 +257,14 @@
         font-size: 33px;
     }
 
+    .banner-txt.social-info {
+        border-top: 1px solid #04cd33;
+        margin-top: 20px !important;
+        padding-top: 20px;
+    }
+
     .banner-txt {
-        padding-bottom: 60px;
+        padding-bottom: 20px;
     }
 
     #banner::before,

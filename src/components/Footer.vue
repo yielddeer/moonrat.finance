@@ -19,7 +19,7 @@
                                 <a href="https://t.me/MoonRatFinance" target="_blank">
                                     <i class="fa fa-telegram" aria-hidden="true"></i>
                                 </a>
-                                 <a href="https://t.me/moonrat_finance" target="_blank">
+                                <a href="https://t.me/moonrat_finance" target="_blank">
                                     <i class="fa fa-telegram" aria-hidden="true"></i>
                                 </a>
                                 <a href="https://medium.com/moonrat-finance" target="_blank">
@@ -40,16 +40,29 @@
                             <h3>Important Links</h3>
                             <ul>
                                 <li>
-                                    <a @click="commingSoon()">Contract</a></li>
-                                <li><a href="https://docs.moonrat.finance" target="_blank">WhitePaper </a>
+                                    <a href="https://bscscan.com/token/0x6D949f9297A522c0f97C232CC209a67Bd7CfA471"
+                                       target="_blank">Contract
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://docs.moonrat.finance" target="_blank">WhitePaper </a>
                                 </li>
                                 <li><a href="#"
                                        target="_blank">CMC</a>
                                 </li>
-                                <li><a href="#">CoinGecko</a></li>
+                                <li><a href="https://www.coingecko.com/en/coins/moonrat" target="_blank">CoinGecko</a>
+                                </li>
                                 <li>
-                                    <a href="#"
-                                       target="_blank">PancakeSwap</a></li>
+                                    <a href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x6d949f9297a522c0f97c232cc209a67bd7cfa471"
+                                       target="_blank">PancakeSwap
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://dex.guru/token/0x6d949f9297a522c0f97c232cc209a67bd7cfa471"
+                                       target="_blank">Dex.Guru
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>

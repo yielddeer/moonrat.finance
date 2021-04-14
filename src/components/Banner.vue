@@ -9,25 +9,8 @@
         </div>
         <div class="container zindex">
             <div class="row">
-                <div class="col-lg-7 banner-txt">
+                <div class="col-lg-6 banner-txt">
 
-                    <h3 class="small">
-                        OFFICIAL TELEGRAM : <a target="_blank" href="https://t.me/MoonRatFinance">@MoonRatFinance</a>
-                    </h3>
-
-                    <h3 class="small">
-                        OFFICIAL TELEGRAM ANNOUNCEMENTS : <a target="_blank" href="https://t.me/moonrat_finance">@moonrat_finance</a>
-                    </h3>
-
-                    <h3 class="small">
-                        OFFICIAL TWITTER : <a target="_blank"
-                                              href="https://twitter.com/MoonRatFinance">@MoonRatFinance</a>
-                    </h3>
-
-                    <h3 class="small">
-                        OFFICIAL SMARTCONTRACT : <a target="_blank"
-                                                    href="https://bscscan.com/token/0x6D949f9297A522c0f97C232CC209a67Bd7CfA471">Here</a>
-                    </h3>
 
                     <h3 class="title-main">WELCOME TO THE NEW WORLD 🐭</h3>
                     <p>MoonRat is a community driven, fair launched DeFi project built on Binance Smart Chain #BSC.
@@ -39,12 +22,69 @@
                     </p>
                     <br>
                     <br>
-                    <a class="bor super" @click="launchApp()" style="cursor: pointer">Launch App</a>
+                    <div class="center-in-mobile">
+                        <a class="bor super" @click="launchApp()" style="cursor: pointer">Launch App</a>
+                    </div>
                 </div>
-                <div class="col-lg-5">
+                <div class="col-lg-6">
                     <div class="banner-img">
                         <img :src="require('@/assets/images/RatBNB.png')" alt="banner-img" class="img-fluid">
                     </div>
+
+                    <div class="banner-txt social-info">
+                        <div class="row">
+                            <div class="col-lg-7 col-md-7 col-sm-12 text-wrapper">
+                                <h3 class="small">
+                                    OFFICIAL TELEGRAM
+                                </h3>
+                            </div>
+                            <div class="col-lg-5 col-md-5 col-sm-12 button-wrapper">
+                                <a class="a-small" target="_blank"
+                                   href="https://t.me/MoonRatFinance">@MoonRatFinance</a>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-7 col-md-7 col-sm-12 text-wrapper">
+                                <h3 class="small">
+                                    OFFICIAL TELEGRAM ANNOUNCEMENTS
+                                </h3>
+                            </div>
+                            <div class="col-lg-5 col-md-5 col-sm-12 button-wrapper">
+                                <a target="_blank" class="a-small"
+                                   href="https://t.me/moonrat_finance">@moonrat_finance</a>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-lg-7 col-md-7 col-sm-12 text-wrapper">
+                                <h3 class="small">
+                                    OFFICIAL TWITTER
+                                </h3>
+                            </div>
+                            <div class="col-lg-5 col-md-5 col-sm-12 button-wrapper">
+
+                                <a target="_blank" class="a-small"
+                                   href="https://twitter.com/MoonRatFinance">@MoonRatFinance</a>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-7 col-md-7 col-sm-12 text-wrapper">
+                                <h3 class="small">
+                                    OFFICIAL SMARTCONTRACT
+                                </h3>
+                            </div>
+                            <div class="col-lg-5 col-md-5 col-sm-12 button-wrapper">
+                                <a target="_blank" class="a-small"
+                                   href="https://bscscan.com/token/0x6D949f9297A522c0f97C232CC209a67Bd7CfA471">BSC Contract</a>
+                            </div>
+                        </div>
+                    </div>
+
+
                 </div>
             </div>
         </div>
