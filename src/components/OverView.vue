@@ -23,15 +23,15 @@
                                 <div class="break"></div>
                                 <h3>Automatic Liquidity Pool</h3>
                                 <p>4% of every transaction contributes toward automatically generating further liquidity
-                                    on Pancake Swap. Benefiting long term for $MRAT holders the most!</p>
+                                    on Pancake Swap. Benefiting long term for $MPANDA holders the most!</p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-sm-6">
                             <div class="over-item txt-right unique-style3">
                                 <img :src="require('@/assets/images/icon-03.png')" alt="banner-img" class="img-fluid image-icon">
                                 <div class="break"></div>
-                                <h3>Earn $BNB by hodling $MRAT</h3>
-                                <p>4% of every transaction is taken and re-distributed to all MoonRat holders in $BNB.</p>
+                                <h3>Earn $BNB by hodling $MPANDA</h3>
+                                <p>4% of every transaction is taken and re-distributed to all moonpanda holders in $BNB.</p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-sm-6">
@@ -47,7 +47,7 @@
                                 <img :src="require('@/assets/images/icon-05.png')" alt="banner-img" class="img-fluid image-icon">
                                 <div class="break"></div>
                                 <h3>RFI Static Rewards</h3>
-                                <p>2% of every transaction is taken and re distributed to all $MRAT holders. The burn address is also a holder thus each transaction helps deflate the supply.</p>
+                                <p>2% of every transaction is taken and re distributed to all $MPANDA holders. The burn address is also a holder thus each transaction helps deflate the supply.</p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-sm-6">
@@ -56,7 +56,7 @@
                                 <div class="break"></div>
                                 <h3>Highly Secured</h3>
                                 <p>All initial liquidity provided has been locked with UniCrypt. The contract owner has
-                                    been renounced, leaving the contract trustless for the MOONRAT community.</p>
+                                    been renounced, leaving the contract trustless for the MOONPANDA community.</p>
                             </div>
                         </div>
                     </div>

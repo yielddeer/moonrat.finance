@@ -1,9 +1,9 @@
 <template>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" :class="{'nav-bg':have_nav}">
+    <nav class="navbar navbar-expand-lg navbar-light bg-black sticky-top" :class="{'nav-bg':have_nav}">
         <div class="container">
-            <a class="navbar-brand" href="/"><b>MOONRAT</b></a>
-            <img :src="require('@/assets/images/MoonRat_2x.png')" style="width: 50px">
+            <a class="navbar-brand" href="/"><b>MOONPANDA</b></a>
+            <img :src="require('@/assets/images/MoonPanda_2x.png')" style="width: 50px">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     @click="show_nav_mobile = !show_nav_mobile"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,12 +48,12 @@
                            target="_blank">Contract </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://docs.moonrat.finance/"
+                        <a class="nav-link" href="https://docs.moonpanda.finance/"
                            target="_blank">WhitePaper </a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="https://medium.com/moonrat-finance/" target="_blank">Medium</a>
+                        <a class="nav-link" href="https://medium.com/MoonPanda-Finance/" target="_blank">Medium</a>
                     </li>
 
                     <li class="nav-item">
@@ -85,14 +85,14 @@
                     background: '#fff url(https://i.ibb.co/gwh2dbd/moon.png)',
                     backdrop: `
                                 rgba(0, 0, 0, 0.5)
-                                url("https://i.ibb.co/qFgF3yZ/moonrat-02.gif")
+                                url("https://i.ibb.co/qFgF3yZ/moonpanda-02.gif")
                                 left top
                                 no-repeat
                               `
                 });
             },
             commingSoon1() {
-                window.open('https://app.moonrat.finance', '_blank');
+                window.open('https://app.moonpanda.finance', '_blank');
 
             },
             onScroll() {

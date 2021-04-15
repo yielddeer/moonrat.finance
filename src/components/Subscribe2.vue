@@ -33,7 +33,7 @@
                     background: '#fff url(https://i.ibb.co/gwh2dbd/moon.png)',
                     backdrop: `
                                 rgba(0, 0, 0, 0.5)
-                                url("https://i.ibb.co/qFgF3yZ/moonrat-02.gif")
+                                url("https://i.ibb.co/qFgF3yZ/moonpanda-02.gif")
                                 left top
                                 no-repeat
                               `

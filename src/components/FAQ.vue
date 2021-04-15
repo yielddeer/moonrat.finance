@@ -32,15 +32,15 @@
                 data_faq: [
                     {
                         title: 'How many BNB can I claim?',
-                        desc: 'You can claim the amount of the BNB based on the ratio of $MRAT you hold/the total BNB pool. <br> For example, you hold 1% of $MRAT, you can withdraw 1% of the BNB reward pool.'
+                        desc: 'You can claim the amount of the BNB based on the ratio of $MPANDA you hold/the total BNB pool. <br> For example, you hold 1% of $MPANDA, you can withdraw 1% of the BNB reward pool.'
                     },
                     {
                         title: 'What is the BNB pool?',
-                        desc: '4% of every transaction is taken and re-distributed to all MoonRat holders in $BNB. This amount of BNB called the BNB pool.'
+                        desc: '4% of every transaction is taken and re-distributed to all moonpanda holders in $BNB. This amount of BNB called the BNB pool.'
                     },
                     {
                         title: 'What if I don’t claim BNB reward in my cycle?',
-                        desc: 'If you don’t claim at your cycle and other holders claim, the BNB pool will reduce. <br> So then the ratio of your $MRAT/BNB pool reduces as well. That’s why you should claim as soon as your cycle is ready '
+                        desc: 'If you don’t claim at your cycle and other holders claim, the BNB pool will reduce. <br> So then the ratio of your $MPANDA/BNB pool reduces as well. That’s why you should claim as soon as your cycle is ready '
                     }
                 ]
             }
@@ -58,10 +58,11 @@
 
     .faq-content {
         padding: 40px 100px;
-        background-color: white;
+        background-color: #000;
         margin-top: 70px;
         border-radius: 10px;
         box-shadow: 0 31px 35px rgb(0 0 0 / 10%);
+        border: 1px solid #0bca48;
     }
 
 </style>

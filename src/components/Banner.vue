@@ -12,13 +12,13 @@
                 <div class="col-lg-6 banner-txt">
 
 
-                    <h3 class="title-main">WELCOME TO THE NEW WORLD 🐭</h3>
-                    <p>MoonRat is a community driven, fair launched DeFi project built on Binance Smart Chain #BSC.
+                    <h3 class="title-main">WELCOME TO THE WORLD OF PANDA</h3>
+                    <p>MoonPanda is a community driven, fair launched DeFi project built on Binance Smart Chain #BSC.
                         Three functions occur during each trade: Reflection, LP Acquisition, & Burn.
                         <br>
                         <br>
-                        MoonRat brings the most revolutionary mechanism to BSC ecosystem: Earn $BNB just by holding
-                        $MRAT token
+                        MoonPanda brings the most revolutionary mechanism to BSC ecosystem: Earn $BNB just by holding
+                        $MPANDA token
                     </p>
                     <br>
                     <br>
@@ -28,7 +28,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="banner-img">
-                        <img :src="require('@/assets/images/RatBNB.png')" alt="banner-img" class="img-fluid">
+                        <img :src="require('@/assets/images/PandaBNB.png')" alt="banner-img" class="img-fluid">
                     </div>
 
                     <div class="banner-txt social-info">
@@ -40,7 +40,7 @@
                             </div>
                             <div class="col-lg-5 col-md-5 col-sm-12 button-wrapper">
                                 <a class="a-small" target="_blank"
-                                   href="https://t.me/MoonRatFinance">@MoonRatFinance</a>
+                                   href="https://t.me/MoonPandaFinance">@MoonPandaFinance</a>
                             </div>
 
                         </div>
@@ -53,7 +53,7 @@
                             </div>
                             <div class="col-lg-5 col-md-5 col-sm-12 button-wrapper">
                                 <a target="_blank" class="a-small"
-                                   href="https://t.me/moonrat_finance">@moonrat_finance</a>
+                                   href="https://t.me/moonpanda_finance">@moonpanda_finance</a>
                             </div>
                         </div>
 
@@ -67,7 +67,7 @@
                             <div class="col-lg-5 col-md-5 col-sm-12 button-wrapper">
 
                                 <a target="_blank" class="a-small"
-                                   href="https://twitter.com/MoonRatFinance">@MoonRatFinance</a>
+                                   href="https://twitter.com/MoonPandaFinance">@MoonPandaFinance</a>
                             </div>
                         </div>
 
@@ -101,7 +101,7 @@
         },
         methods: {
             launchApp() {
-                window.open("https://app.moonrat.finance/", "_blank")
+                window.open("https://app.moonpanda.finance/", "_blank")
             },
             onScroll() {
                 if (!this.always_fixed_navbar) {

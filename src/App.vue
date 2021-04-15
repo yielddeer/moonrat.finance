@@ -19,7 +19,7 @@
     import Header from "./components/Header";
     import Footer from "./components/Footer";
 
-    import YourLogo from './assets/images/MoonRat_2x.png';
+    import YourLogo from './assets/images/MoonPanda_2x.png';
 
     export default {
         name: 'App',

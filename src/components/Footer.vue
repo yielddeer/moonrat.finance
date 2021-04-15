@@ -5,30 +5,30 @@
                 <div class="row">
                     <div class="col-lg-4 col-sm-11">
                         <div class="footer-logo">
-                            <a class="f-logo"><b>MoonRat</b></a>
+                            <a class="f-logo"><b>MoonPanda</b></a>
 
-                            <p>MoonRat is a community driven, fair launched DeFi project built on Binance Smart Chain
+                            <p>MoonPanda is a community driven, fair launched DeFi project built on Binance Smart Chain
                                 #BSC.
-                                MoonRat brings the most revolutionary mechanism to BSC ecosystem: Earn $BNB just by
-                                holding $MRAT token</p>
+                                MoonPanda brings the most revolutionary mechanism to BSC ecosystem: Earn $BNB just by
+                                holding $MPANDA token</p>
 
                             <div class="footer-social">
-                                <a href="https://twitter.com/MoonRatFinance" target="_blank">
+                                <a href="https://twitter.com/MoonPandaFinance" target="_blank">
                                     <i class="fa fa-twitter" aria-hidden="true"></i>
                                 </a>
-                                <a href="https://t.me/MoonRatFinance" target="_blank">
+                                <a href="https://t.me/MoonPandaFinance" target="_blank">
                                     <i class="fa fa-telegram" aria-hidden="true"></i>
                                 </a>
-                                <a href="https://t.me/moonrat_finance" target="_blank">
+                                <a href="https://t.me/moonpanda_finance" target="_blank">
                                     <i class="fa fa-telegram" aria-hidden="true"></i>
                                 </a>
-                                <a href="https://medium.com/moonrat-finance" target="_blank">
+                                <a href="https://medium.com/MoonPanda-Finance" target="_blank">
                                     <i class="fa fa-medium" aria-hidden="true"></i>
                                 </a>
-                                <a href="https://github.com/MoonRat-Finance" target="_blank">
+                                <a href="https://github.com/MoonPanda-Finance" target="_blank">
                                     <i class="fa fa-github" aria-hidden="true"></i>
                                 </a>
-                                <a href="mailto:hello@moonrat.finance" target="_blank">
+                                <a href="mailto:hello@moonpanda.finance" target="_blank">
                                     <i class="fa fa-envelope" aria-hidden="true"></i>
                                 </a>
                             </div>
@@ -46,12 +46,12 @@
                                 </li>
 
                                 <li>
-                                    <a href="https://docs.moonrat.finance" target="_blank">WhitePaper </a>
+                                    <a href="https://docs.moonpanda.finance" target="_blank">WhitePaper </a>
                                 </li>
                                 <li><a href="#"
                                        target="_blank">CMC</a>
                                 </li>
-                                <li><a href="https://www.coingecko.com/en/coins/moonrat" target="_blank">CoinGecko</a>
+                                <li><a href="https://www.coingecko.com/en/coins/moonpanda" target="_blank">CoinGecko</a>
                                 </li>
                                 <li>
                                     <a href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x6d949f9297a522c0f97c232cc209a67bd7cfa471"
@@ -76,9 +76,9 @@
                                         Branding
                                     </router-link>
                                 </li>
-                                <li><a href="https://medium.com/moonrat-finance" target="_blank">Recent Mediums</a></li>
-                                <li><a href="https://t.me/MoonRatFinance" target="_blank">Join Telegram</a></li>
-                                <li><a href="mailto:hello@moonrat.finance">Contact Us</a></li>
+                                <li><a href="https://medium.com/MoonPanda-Finance" target="_blank">Recent Mediums</a></li>
+                                <li><a href="https://t.me/MoonPandaFinance" target="_blank">Join Telegram</a></li>
+                                <li><a href="mailto:hello@moonpanda.finance">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -91,7 +91,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="fop-btm text-center">
-                            <h2>Copyright © 2021. All rights reserved by <a href="https://MOONRAT.fun/#">MoonRat
+                            <h2>Copyright © 2021. All rights reserved by <a href="https://moonpanda.fun/#">Moonpanda
                                 Finance</a>
                             </h2>
                         </div>
@@ -114,7 +114,7 @@
                     background: '#fff url(https://i.ibb.co/gwh2dbd/moon.png)',
                     backdrop: `
                                 rgba(0, 0, 0, 0.5)
-                                url("https://i.ibb.co/qFgF3yZ/moonrat-02.gif")
+                                url("https://i.ibb.co/qFgF3yZ/moonpanda-02.gif")
                                 left top
                                 no-repeat
                               `

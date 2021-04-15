@@ -4,18 +4,18 @@
 }
 
 #index2 .navbar-light .navbar-toggler {
-    color: #131313;
+    color: #ddd;
     outline: 0;
 }
 
 #index3 .navbar-light .navbar-toggler,
 #index4 .navbar-light .navbar-toggler {
-    color: #131313;
+    color: #ddd;
     outline: 0;
 }
 
 .navbar-light .navbar-toggler {
-    color: #131313;
+    color: #ddd;
     outline: 0;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .nav-bg i {
-    color: #131313;
+    color: #dddddd;
 }
 
 .navbar-toggler {
@@ -51,9 +51,10 @@
     }
 
     .menu-item {
-        background: #fff;
+        background: rgb(24, 24, 24);
         text-align: center;
         padding: 15px 0;
+       
     }
 
     .navbar::after {

@@ -9,7 +9,7 @@
                                 <h3>Stay Connected With Us</h3>
                             </div>
                             <div class="col-lg-3 col-md-5 subscripe-btn">
-                                <a href="https://t.me/MoonRatFinance" target="_blank">Chat now</a>
+                                <a href="https://t.me/MoonPandaFinance" target="_blank">Chat now</a>
                             </div>
                         </div>
                     </div>

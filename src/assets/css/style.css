@@ -406,7 +406,7 @@ p {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #131313;
+    color: #eeeeee;
     font-family: 'Baloo Da 2', cursive;
     font-size: 17px;
     font-weight: 500;
@@ -495,7 +495,8 @@ p {
 }
 
 body {
-    background-image: linear-gradient(0deg, #adeeec, #fff);
+    background :  #000000 ;
+    color:#ddd;
 }
 
 .navbar-light .navbar-brand b {
@@ -514,7 +515,7 @@ body {
 }
 
 .nav-bg {
-    background: #fff !important;
+    background: #000 !important;
     opacity: 1;
     padding: 20px 10px;
     -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, .1);
@@ -534,7 +535,7 @@ body {
 }
 
 .nav-bg .navbar-nav .nav-link {
-    color: #131313;
+    color: #eeeeee;
 }
 
 /*===========================
@@ -556,19 +557,21 @@ body {
 
 #timeline .gb-vue-timeline-update .gb-vue-timeline-update__right .gb-vue-timeline-update__information .gb-vue-timeline-update__title {
     font-family: 'Baloo Da 2', cursive;
+    color: #05cd34;
 }
 
 #timeline .gb-vue-timeline-update--light .gb-vue-timeline-update__right .gb-vue-timeline-update__description {
     font-family: 'Baloo Da 2', cursive;
+    color:#ddd;
 }
 
 #timeline .roadmap-content {
-    background-color: white;
+    background : none;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 31px 35px rgb(0 0 0 / 10%);
-    /*margin-left: 3vw;*/
-    /*margin-right: 3vw;*/
+ 
+    border: 1px solid #0bca48;
 }
 
 #faq .el-collapse {
@@ -580,6 +583,8 @@ body {
     font-size: 20px;
     height: 70px;
     line-height: 1.2;
+    background:none;
+    color:#ddd;
 }
 
 #faq .el-collapse-item__content {
@@ -594,6 +599,7 @@ body {
 
 #timeline .gb-vue-timeline-update {
     padding-top: 5px;
+    color:#ddd;
 }
 
 .banner-txt.social-info {
@@ -692,7 +698,7 @@ body {
 
 .banner-txt p {
     font-size: 16px;
-    color: black;
+    color: #dddddd;
     padding-right: 40px;
     line-height: 26px;
     padding-bottom: 45px;
@@ -811,12 +817,13 @@ body {
 }
 
 .over-item {
-    background: #fff;
+    background: #000000;
     -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, .1);
     box-shadow: 0 31px 35px rgba(0, 0, 0, .1);
     padding: 35px 31px;
     margin-top: 30px;
     border-radius: 10px;
+    border: 1px solid #0bca48;
 }
 
 .unique-style,
@@ -935,7 +942,7 @@ body {
 .header-text h3 {
     font-size: 37px;
     font-family: 'Baloo Da 2', cursive;
-    color: #151515;
+    color: #eeeeee;
     letter-spacing: 10px;
     position: relative;
     display: inline-block;
@@ -972,7 +979,7 @@ body {
 
 .over-item h3 {
     font-size: 24px;
-    color: #131313;
+    color: #04cd33;;
     font-family: 'Baloo Da 2', cursive;
     padding: 20px 0;
     position: relative;
@@ -980,7 +987,7 @@ body {
 
 .over-item p {
     font-size: 17px;
-    color: #666;
+    color: #ddd;
     line-height: 26px;
 }
 
@@ -1100,7 +1107,7 @@ over-btn a i {
 
 .about-txt p {
     font-size: 17px;
-    color: #666;
+    color: #ddd;
     line-height: 27px;
 }
 
@@ -1146,7 +1153,7 @@ over-btn a i {
 
 .p-bar span {
     font-size: 18px;
-    color: #666;
+    color: #ddd;
 }
 
 .p-bars {
@@ -1179,7 +1186,7 @@ over-btn a i {
 
 .counter-1 span {
     font-size: 18px;
-    color: #666;
+    color: #ddd;
 }
 
 /*===========================
@@ -1308,7 +1315,7 @@ over-btn a i {
 }
 
 .product-slider span {
-    color: #666;
+    color: #ddd;
     font-family: 'Baloo Da 2', cursive;
 }
 
@@ -1330,10 +1337,11 @@ over-btn a i {
 }
 
 #tokenomics .tokenomic-content {
-    background: #fff;
+    background: #000;
     box-shadow: 0 31px 35px rgb(0 0 0 / 10%);
     padding: 35px 31px;
     border-radius: 10px;
+    border: 1px solid #0bca48;
 }
 
 .team-header h3:after {
@@ -1448,7 +1456,7 @@ over-btn a i {
 .team-item p {
     font-family: 'Baloo Da 2', cursive;
     font-size: 18px;
-    color: #666;
+    color: #ddd;
     padding-bottom: 14px;
 }
 
@@ -1518,7 +1526,7 @@ over-btn a i {
 }
 
 .price-table p {
-    color: #666;
+    color: #ddd;
     font-family: 'Baloo Da 2', cursive;
     padding-bottom: 15px;
     padding-left: 35px;
@@ -1596,7 +1604,7 @@ over-btn a i {
 }
 
 .comment p {
-    color: #666;
+    color: #ddd;
     font-family: 'Baloo Da 2', cursive;
     font-size: 17px;
 }
@@ -1738,7 +1746,7 @@ textarea:-ms-input-placeholder {
 
 .card-body {
     background: #fff;
-    color: #666;
+    color: #ddd;
     padding: 26px 40px;
     line-height: 28px;
     font-family: 'Baloo Da 2', cursive;
@@ -1793,7 +1801,7 @@ textarea::placeholder {
 .tags a {
     padding: 12px 17px;
     background: #f4f6fa;
-    color: #666;
+    color: #ddd;
     margin-right: 8px;
 }
 
@@ -1809,7 +1817,7 @@ textarea::placeholder {
 }
 
 .blog-item-txt p {
-    color: #666;
+    color: #ddd;
     padding-bottom: 14px;
 }
 
@@ -1875,11 +1883,11 @@ textarea::placeholder {
 
 #footer {
     padding: 70px 0 85px;
-    background: #fff;
+    background: #000;
 }
 
 .footer-logo p {
-    color: #666;
+    color: #ddd;
     font-family: 'Baloo Da 2', cursive;
     padding-top: 10px;
     line-height: 29px;
@@ -1917,14 +1925,14 @@ textarea::placeholder {
 .links h3 {
     font-size: 21px;
     font-family: 'Baloo Da 2', cursive;
-    color: #151515;
+    color: #0bca48;
     font-weight: 600;
     text-transform: capitalize;
     padding-bottom: 4px;
 }
 
 .links ul li a {
-    color: #666;
+    color: #ddd;
     text-transform: capitalize;
     line-height: 38px;
     font-size: 16px;
@@ -2013,12 +2021,12 @@ textarea::placeholder {
 =============================*/
 
 #footer-btm {
-    background: #B6F0EE;
+    background: #000;
     padding: 10px 0;
 }
 
 .fop-btm h2 {
-    color: #666;
+    color: #ddd;
     font-size: 16px;
     font-family: 'Baloo Da 2', cursive;
     margin-bottom: 0;

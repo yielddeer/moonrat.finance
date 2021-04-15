@@ -12,14 +12,14 @@
                     <div class="row">
                         <div class="col-lg-4 col-sm-8 m-sm-auto col-md-5 text-center">
                             <div class="about-img ai-one">
-                                <img :src="require('@/assets/images/MoonRat_3x.png')" alt="about-img" class="img-fluid">
+                                <img :src="require('@/assets/images/MoonPanda_3x.png')" alt="about-img" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-lg-1 col-md-1"></div>
                         <div class="col-lg-7 col-md-6 tokenomic-content">
                             <div class="about-txt">
                                 <h3 style="color:#04cd33;">Token Stuff</h3>
-                                <p>Total Supply: 1 Quadrillion MoonRat<br></p>
+                                <p>Total Supply: 1 Quadrillion Moonpanda<br></p>
 
                                 <ul class="ul-token-stuff">
                                     <li>80% for the fair launch. We add 80% of token to LP on Pancakeswap</li>
@@ -31,16 +31,16 @@
                                     </li>
 
 
-                                    <a href="https://docs.moonrat.finance/tokenomics/introduction" target="_blank">
+                                    <a href="https://docs.moonpanda.finance/tokenomics/introduction" target="_blank">
                                         View more </a>
 
                                 </ul>
 
-                                <!-- Circulating Supply: 973,840,412,032,907 $MRAT<br>
-                                Holders:  $MRAT<br> -->
+                                <!-- Circulating Supply: 973,840,412,032,907 $MPANDA<br>
+                                Holders:  $MPANDA<br> -->
 
                                 <!-- <h3 style="color:#04cd33;" class="mt-5">Burn Schedule</h3>
-                                <p>Total MoonRat Burned:  $MRAT</p> -->
+                                <p>Total moonpanda Burned:  $MPANDA</p> -->
                             </div>
                         </div>
                     </div>

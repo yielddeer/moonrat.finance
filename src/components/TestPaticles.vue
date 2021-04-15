@@ -17,7 +17,7 @@
                 option: {
                     background: {
                         color: {
-                            value: '#fff'
+                            value: '#000'
                         }
                     },
                     fpsLimit: 60,

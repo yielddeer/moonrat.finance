@@ -1,4 +1,4 @@
-# MoonRat Finance
+# MoonPanda Finance
 
 ## Project setup
 ```

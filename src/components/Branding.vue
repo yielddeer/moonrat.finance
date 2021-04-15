@@ -7,19 +7,19 @@
                     Branding
                 </h3>
                 <p class="mt-2">
-                    Please do not edit, change, distort, recolor, or reconfigure the MoonRat logo. Adjusting the size
-                    is fine as long as the original aspect ratio is maintained. These may be used to promote MoonRat on
+                    Please do not edit, change, distort, recolor, or reconfigure the moonpanda logo. Adjusting the size
+                    is fine as long as the original aspect ratio is maintained. These may be used to promote moonpanda on
                     your website, social media, and other platforms.
                 </p>
             </div>
 
             <div class="part-2 mt-5">
                 <h3>
-                    MoonRat logo
+                    moonpanda logo
                 </h3>
                 <div class="mt-2">
                     <div class="img-wrapper">
-                        <img :src="require('@/assets/images/MoonRat_2x.png')">
+                        <img :src="require('@/assets/images/MoonPanda_2x.png')">
                     </div>
                 </div>
             </div>
@@ -37,7 +37,7 @@
 
             <div class="part-2 mt-5">
                 <h3>
-                    MoonRat & BNB 
+                    moonpanda & BNB 
                 </h3>
                 <div class="mt-2" style="display: flex; flex-wrap: wrap; justify-content: space-between">
                     <div class="img-wrapper mb-2">
